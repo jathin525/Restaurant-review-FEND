@@ -20,7 +20,7 @@
 	</header>
 	<main id="maincontent">
 		<section id="map-container">
-			<div id="map"></div>
+			<div id="map" role="application" aria-label="Location"></div>
 		</section>
 		<section>
 			<div class="filter-options">
@@ -34,7 +34,7 @@
 					</option>
 				</select>
 			</div>
-			<ul id="restaurants-list"></ul>
+			<ul aria-label="list of restaurants" id="restaurants-list" tabindex="0"></ul>
 		</section>
 	</main>
 	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js">
